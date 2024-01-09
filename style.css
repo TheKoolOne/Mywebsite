@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret One');
+*{
+    font-family:'Poiret One';
+}
+.Title{
+    color:#707070;
+    margin:auto;
+    text-align:center;
+    font-size:30px
+}
+h1{
+    font-family: 'Poiret One';
+    color:#707070;
+    color: #FFFF00;
+    text-align: center;
+    text-shadow: 0 0 5px #FFFF00, 0 0 10px #FFFF00, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+  }
+body{
+    background-color:#181717;
+}
+iframe{
+    display:block;
+    border-style:none;
+    margin:10px
+}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#454545;
+    font-size:40px;
+    position:relative;
+    width:fit-content;
+    border-color:#000;
+    border-radius:20px;
+    border:solid
+    
+    
+}
+#nav-placeholder{
+    display: flex;
+    justify-content: center;
+   
+}
+li{
+    float: left;
+}
+a{
+    padding: 10px;
+    display: block;
+    background-color: #454545;
+    transition: 0.4s;
+}
+li a{
+    text-decoration:none;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+  }
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0073e6, 0 0 40px #0073e6, 0 0 50px #0073e6, 0 0 60px #0073e6, 0 0 70px #0073e6;
+  }
+}
+
+    li a:hover{
+    font-size: 1.5em;
+    background-color:#242424;
+    transition: 0.4s;
+}
+.button{
+    display:flex;
+    justify-content:center
+}
+#btncounter{
+    text-align:center;
+    width:1000px;
+    height:500px;
+    border-radius:30px;
+    border:solid;
+    background-color:#2f3c42;
+    font-size:100px;
+    color:#fff;
+    border-color:#000
+}
+.retry{
+    justify-content:center;
+    display:flex
+}
+#retry{
+    background-color:#ff4500;
+    height:100px;
+    width:930px;
+    font-size:50px
+}
+.input{
+    height:60px;
+    width:320px;
+    background-color:#a9a9a9;
+    color:#707070;
+    font-size:40px;
+    text-align:center;
+    margin:auto;
+    display:block;
+    border:#181717;
+    border-radius:10px
+}
+#wordspace{
+    font-style: "sans-serif";
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 100px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <head>
+        <title>CPS Test</title>
+        <script defer src="main.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+        $(function(){
+          $("#nav-placeholder").load("nav.html");
+        });
+        </script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="nav-placeholder"></div>
+        <div class="Title"><h1>Hamzah's Website</h1></div>
+        <h1>Clicks Per Second test see how fast you can click(Enter value in Seconds)</h1>
+        <input type="text" class="input" placeholder="Enter Time" onfocus="this.placeholder = ''" id="input">
+        <!--<h1 id="timer">0</h1>-->
+        <div class="button">
+        <button id="btncounter">Click</button>  
+        </div>  
+        <div class="retry">
+        <button id="retry">↻</button>
+        </div>
+    </body>
+</html>     
